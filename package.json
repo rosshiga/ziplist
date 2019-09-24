@@ -1,0 +1,15 @@
+{
+  "name": "ESLintSample",
+  "version": "1.0.0",
+  "description": "Sample package.json for eslint",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "lint": "eslint --ext .js ."
+  },
+  "private": true
+}
